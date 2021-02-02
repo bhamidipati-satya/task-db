@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fc56fb5-e4f0-4ec3-aebf-a9170f00ca0b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7fc56fb5-e4f0-4ec3-aebf-a9170f00ca0b" name="Default Changelist" comment="Added definition table. Added tenant_id on a comment and decision tables." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,5 +34,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added definition table. Added tenant_id on a comment and decision tables." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added definition table. Added tenant_id on a comment and decision tables." />
   </component>
 </project>

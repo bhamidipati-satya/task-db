@@ -914,398 +914,450 @@
     <table id="290" parent="6" name="decision"/>
     <table id="291" parent="6" name="definition"/>
     <table id="292" parent="6" name="meeting"/>
-    <column id="293" parent="285" name="id">
+    <table id="293" parent="6" name="org_unit"/>
+    <column id="294" parent="285" name="id">
       <Position>1</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="294" parent="285" name="tenant">
+    <column id="295" parent="285" name="tenant">
       <Position>2</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="295" parent="285" name="logo">
+    <column id="296" parent="285" name="logo">
       <Position>3</Position>
       <DataType>varchar(100)|0s</DataType>
     </column>
-    <index id="296" parent="285" name="tenant_pk">
+    <index id="297" parent="285" name="tenant_pk">
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="297" parent="285" name="tenant_pk">
+    <key id="298" parent="285" name="tenant_pk">
       <ColNames>id</ColNames>
       <UnderlyingIndexName>tenant_pk</UnderlyingIndexName>
     </key>
-    <column id="298" parent="286" name="id">
+    <column id="299" parent="286" name="id">
       <Position>1</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="299" parent="286" name="email">
+    <column id="300" parent="286" name="email">
       <Position>2</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="300" parent="286" name="username">
+    <column id="301" parent="286" name="username">
       <Position>3</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="301" parent="286" name="password">
+    <column id="302" parent="286" name="password">
       <Position>4</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="302" parent="286" name="tenant">
+    <column id="303" parent="286" name="mobile">
       <Position>5</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="304" parent="286" name="tenant">
+      <Position>6</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="303" parent="286" name="created_date">
-      <Position>6</Position>
-      <DataType>datetime|0s</DataType>
-    </column>
-    <column id="304" parent="286" name="updated_date">
+    <column id="305" parent="286" name="created_date">
       <Position>7</Position>
       <DataType>datetime|0s</DataType>
     </column>
-    <column id="305" parent="286" name="created_by">
+    <column id="306" parent="286" name="updated_date">
       <Position>8</Position>
-      <DataType>int|0s</DataType>
+      <DataType>datetime|0s</DataType>
     </column>
-    <column id="306" parent="286" name="updated_by">
+    <column id="307" parent="286" name="created_by">
       <Position>9</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="307" parent="286" name="deleted">
+    <column id="308" parent="286" name="updated_by">
       <Position>10</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="309" parent="286" name="deleted">
+      <Position>11</Position>
       <DataType>int|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
     </column>
-    <key id="308" parent="286" name="PRIMARY">
+    <key id="310" parent="286" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="309" parent="287" name="id">
+    <column id="311" parent="287" name="id">
       <Position>1</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="310" parent="287" name="title">
+    <column id="312" parent="287" name="title">
       <Position>2</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="311" parent="287" name="description">
+    <column id="313" parent="287" name="description">
       <Position>3</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="312" parent="287" name="meeting">
+    <column id="314" parent="287" name="meeting">
       <Position>4</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="313" parent="287" name="assigned_to">
+    <column id="315" parent="287" name="assigned_to">
       <Position>5</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="314" parent="287" name="due_date">
+    <column id="316" parent="287" name="due_date">
       <Position>6</Position>
       <DataType>datetime|0s</DataType>
     </column>
-    <column id="315" parent="287" name="status">
+    <column id="317" parent="287" name="status">
       <Position>7</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="316" parent="287" name="tenant_id">
+    <column id="318" parent="287" name="tenant_id">
       <Position>8</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="317" parent="287" name="created_date">
+    <column id="319" parent="287" name="created_date">
       <Position>9</Position>
       <DataType>datetime|0s</DataType>
     </column>
-    <column id="318" parent="287" name="updated_date">
+    <column id="320" parent="287" name="updated_date">
       <Position>10</Position>
       <DataType>datetime|0s</DataType>
     </column>
-    <column id="319" parent="287" name="created_by">
+    <column id="321" parent="287" name="created_by">
       <Position>11</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="320" parent="287" name="updated_by">
+    <column id="322" parent="287" name="updated_by">
       <Position>12</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="321" parent="287" name="deleted">
+    <column id="323" parent="287" name="deleted">
       <Position>13</Position>
       <DataType>int|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
     </column>
-    <key id="322" parent="287" name="PRIMARY">
+    <key id="324" parent="287" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="323" parent="288" name="id">
+    <column id="325" parent="288" name="id">
       <Position>1</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="324" parent="288" name="file_name">
+    <column id="326" parent="288" name="file_name">
       <Position>2</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="325" parent="288" name="path">
+    <column id="327" parent="288" name="path">
       <Position>3</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="326" parent="288" name="file_type">
+    <column id="328" parent="288" name="file_type">
       <Position>4</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="327" parent="288" name="tenant_id">
+    <column id="329" parent="288" name="tenant_id">
       <Position>5</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="328" parent="288" name="created_date">
+    <column id="330" parent="288" name="created_date">
       <Position>6</Position>
       <DataType>datetime|0s</DataType>
     </column>
-    <column id="329" parent="288" name="updated_date">
+    <column id="331" parent="288" name="updated_date">
       <Position>7</Position>
       <DataType>datetime|0s</DataType>
     </column>
-    <column id="330" parent="288" name="created_by">
+    <column id="332" parent="288" name="created_by">
       <Position>8</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="331" parent="288" name="updated_by">
+    <column id="333" parent="288" name="updated_by">
       <Position>9</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="332" parent="288" name="deleted">
+    <column id="334" parent="288" name="deleted">
       <Position>10</Position>
       <DataType>int|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
     </column>
-    <key id="333" parent="288" name="PRIMARY">
+    <key id="335" parent="288" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="334" parent="289" name="id">
+    <column id="336" parent="289" name="id">
       <Position>1</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="335" parent="289" name="title">
+    <column id="337" parent="289" name="title">
       <Position>2</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="336" parent="289" name="commented_by">
+    <column id="338" parent="289" name="commented_by">
       <Position>3</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="337" parent="289" name="tag">
+    <column id="339" parent="289" name="tag">
       <Position>4</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="338" parent="289" name="tag_ref_id">
+    <column id="340" parent="289" name="tag_ref_id">
       <Position>5</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="339" parent="289" name="tenant_id">
+    <column id="341" parent="289" name="tenant_id">
       <Position>6</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="340" parent="289" name="updated_date">
+    <column id="342" parent="289" name="updated_date">
       <Position>7</Position>
       <DataType>datetime|0s</DataType>
     </column>
-    <column id="341" parent="289" name="created_by">
+    <column id="343" parent="289" name="created_by">
       <Position>8</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="342" parent="289" name="updated_by">
+    <column id="344" parent="289" name="updated_by">
       <Position>9</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="343" parent="289" name="deleted">
+    <column id="345" parent="289" name="deleted">
       <Position>10</Position>
       <DataType>int|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
     </column>
-    <column id="344" parent="289" name="created_date">
+    <column id="346" parent="289" name="created_date">
       <Position>11</Position>
       <DataType>datetime|0s</DataType>
     </column>
-    <key id="345" parent="289" name="PRIMARY">
+    <key id="347" parent="289" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="346" parent="290" name="id">
+    <column id="348" parent="290" name="id">
       <Position>1</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="347" parent="290" name="title">
+    <column id="349" parent="290" name="title">
       <Position>2</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="348" parent="290" name="taken_by">
+    <column id="350" parent="290" name="taken_by">
       <Position>3</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="349" parent="290" name="meeting">
+    <column id="351" parent="290" name="meeting">
       <Position>4</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="350" parent="290" name="tenant_id">
+    <column id="352" parent="290" name="tenant_id">
       <Position>5</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="351" parent="290" name="updated_date">
+    <column id="353" parent="290" name="updated_date">
       <Position>6</Position>
       <DataType>datetime|0s</DataType>
     </column>
-    <column id="352" parent="290" name="created_date">
+    <column id="354" parent="290" name="created_date">
       <Position>7</Position>
       <DataType>datetime|0s</DataType>
     </column>
-    <column id="353" parent="290" name="updated_by">
+    <column id="355" parent="290" name="updated_by">
       <Position>8</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="354" parent="290" name="created_by">
+    <column id="356" parent="290" name="created_by">
       <Position>9</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="355" parent="290" name="deleted">
+    <column id="357" parent="290" name="deleted">
       <Position>10</Position>
       <DataType>int|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
     </column>
-    <key id="356" parent="290" name="PRIMARY">
+    <key id="358" parent="290" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="357" parent="291" name="id">
+    <column id="359" parent="291" name="id">
       <Position>1</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="358" parent="291" name="key">
+    <column id="360" parent="291" name="key">
       <Position>2</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="359" parent="291" name="value">
+    <column id="361" parent="291" name="value">
       <Position>3</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="360" parent="291" name="created_date">
+    <column id="362" parent="291" name="created_date">
       <Position>4</Position>
       <DataType>datetime|0s</DataType>
     </column>
-    <column id="361" parent="291" name="updated_date">
+    <column id="363" parent="291" name="updated_date">
       <Position>5</Position>
       <DataType>datetime|0s</DataType>
     </column>
-    <column id="362" parent="291" name="created_by">
+    <column id="364" parent="291" name="created_by">
       <Position>6</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="363" parent="291" name="updated_by">
+    <column id="365" parent="291" name="updated_by">
       <Position>7</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="364" parent="291" name="deleted">
+    <column id="366" parent="291" name="deleted">
       <Position>8</Position>
       <DataType>int|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
     </column>
-    <key id="365" parent="291" name="PRIMARY">
+    <key id="367" parent="291" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="366" parent="292" name="id">
+    <column id="368" parent="292" name="id">
       <Position>1</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="367" parent="292" name="topic">
+    <column id="369" parent="292" name="topic">
       <Position>2</Position>
       <DataType>varchar(200)|0s</DataType>
     </column>
-    <column id="368" parent="292" name="start_time">
+    <column id="370" parent="292" name="start_time">
       <Position>3</Position>
       <DataType>datetime|0s</DataType>
     </column>
-    <column id="369" parent="292" name="end_time">
+    <column id="371" parent="292" name="end_time">
       <Position>4</Position>
       <DataType>datetime|0s</DataType>
     </column>
-    <column id="370" parent="292" name="attendees">
+    <column id="372" parent="292" name="attendees">
       <Position>5</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="371" parent="292" name="organizer">
+    <column id="373" parent="292" name="organizer">
       <Position>6</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="372" parent="292" name="org_unit_id">
+    <column id="374" parent="292" name="org_unit_id">
       <Position>7</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="373" parent="292" name="tenant_id">
+    <column id="375" parent="292" name="tenant_id">
       <Position>8</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="374" parent="292" name="description">
+    <column id="376" parent="292" name="description">
       <Position>9</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="375" parent="292" name="created_date">
+    <column id="377" parent="292" name="created_date">
       <Position>10</Position>
       <DataType>datetime|0s</DataType>
     </column>
-    <column id="376" parent="292" name="updated_date">
+    <column id="378" parent="292" name="updated_date">
       <Position>11</Position>
       <DataType>datetime|0s</DataType>
     </column>
-    <column id="377" parent="292" name="created_by">
+    <column id="379" parent="292" name="created_by">
       <Position>12</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="378" parent="292" name="updated_by">
+    <column id="380" parent="292" name="updated_by">
       <Position>13</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="379" parent="292" name="deleted">
+    <column id="381" parent="292" name="deleted">
       <Position>14</Position>
       <DataType>int|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
     </column>
-    <key id="380" parent="292" name="PRIMARY">
+    <key id="382" parent="292" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="383" parent="293" name="id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="384" parent="293" name="org_unit">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="385" parent="293" name="parent">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="386" parent="293" name="tenant_id">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="387" parent="293" name="created_date">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="388" parent="293" name="updated_date">
+      <Position>6</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="389" parent="293" name="created_by">
+      <Position>7</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="390" parent="293" name="updated_by">
+      <Position>8</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="391" parent="293" name="deleted">
+      <Position>9</Position>
+      <DataType>int|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <key id="392" parent="293" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
