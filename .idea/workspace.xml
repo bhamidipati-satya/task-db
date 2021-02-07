@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fc56fb5-e4f0-4ec3-aebf-a9170f00ca0b" name="Default Changelist" comment="Added definition table. Added tenant_id on a comment and decision tables." />
+    <list default="true" id="7fc56fb5-e4f0-4ec3-aebf-a9170f00ca0b" name="Default Changelist" comment="Added org unit table. Added mobile number field to user table.">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/45dda7c1-d55f-4a01-93cd-09e9b044acae.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/45dda7c1-d55f-4a01-93cd-09e9b044acae.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +24,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="Vcs.Log.Tabs.Properties">
@@ -34,9 +37,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added definition table. Added tenant_id on a comment and decision tables." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added definition table. Added tenant_id on a comment and decision tables." />
+    <MESSAGE value="Added org unit table. Added mobile number field to user table." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added org unit table. Added mobile number field to user table." />
   </component>
 </project>
